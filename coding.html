@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Coding for Accessible Design</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/blog-post.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Accessible Design</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="auditorydesign.html">Auditory Design</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="visualdesign.html">Visual Design</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="coding.html">Coding for Accesible Design</a>
+            <span class="sr-only">(current)</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <!-- Post Content Column -->
+      <div class="col-lg-8">
+
+        <!-- Title -->
+        <h1 class="mt-4">Coding for Accessible Design</h1>
+
+        <!-- Author -->
+        <p class="lead">
+        By: Alex Moerschbacher
+        </p>
+
+        <hr>
+        <!-- Preview Image -->
+
+        <!-- Post Content -->
+        <h4>Elements</h4>
+        <p>Avoid using non-semantic elements as much as possible when creating your website with HTML. &lt;div&gt; and &lt;span&gt; elements tell screen readers nothing about the content being presented and don’t assist the screen reader in giving context of the webpage to end users. Rather, use semantic elements such as &lt;form&gt;, &lt;table&gt;, and &lt;article&gt; these elements correctly define the context to the screen reader, allowing screen readers to correctly read the information to users. Another reason to use semantic elements is when using keyboard only navigation defining a button as a button (&lt;button&gt;) makes it clickable while using a &lt;div&gt; tag does not. This makes your job as the designer easier as it reduces the amount of work you need to do while making your website accessible.</p>
+
+        <h4>Headings</h4>
+        <p>The &lt;h1&gt; through &lt;h6&gt; tags are meant to be used to define headings in HTML. Headings are used to break your page into sections and allow search engines and screen readers to understand the structure of your page. Using the headings to make your text BIG or bold will have the same impact on the look of your page but will confuse screen readers and search engines about the layout of your page. Rather use the &lt;strong&gt; tag to make your text bold as it is a semantic tag.</p>
+        
+        <h4>Alternative Text</h4>
+        <p>When placing images onto your website make sure to include an alt attribute to use it when describing an image. If a user is using a screen reader and an alt attribute on the page the screen reader will read the description provide of the image. This allows users with visual impartments to be able to understand what is taking place in the image. </p>
+        
+        <h4>Web Content Accessibility Guidelines</h4>
+        <p>The World Wide Web Consortium (W3C) strives to create a web that is fully accessible for people with a wide range of disabilities. The W3C provides a list of guidelines on their website to create fully accessible web pages. These <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#title" guidelines></a> include the importance of a page title, Image text alternatives, rules for text, interaction and general design choices for creating a accessible website. While this website sets the foundation for a good design choices for accessible websites the W3C guidelines provides one the most complete lists you will be able to find.</p>
+        <hr>
+
+        <h6>Sources</h6>
+        <p>Shawn Lawton Henry “Introduction to Web Accessibility.” <em>Web Accessibility Initiative (WAI)</em>, Education and Outreach Working Group, Feb. 2005, https://www.w3.org/WAI/fundamentals/accessibility-intro/>.</p>
+        <p>Taylor, Stuart. “Web Accessibility Standards and Why They Are Important.” <em>Rouge Media: Web Design Agency,</em> 22 Jan. 2019, www.rouge-media.com/blog/web-accessibility-standards-and-why-they-are-important/.</p>
+        <p>Web Accessibility Initiative “Easy Checks – A First Review of Web Accessibility” <em>W3C,</em> Jan. 2019 https://www.w3.org/WAI/test-evaluate/preliminary/#title</p>
+        <p>Web Accessibility Initiative “HTML Accessibility” <em>W3Schools.com,</em> March 2019, https://www.w3schools.com/html/html_accessibility.asp</p>
+      </div>
+
+      <!-- Sidebar Widgets Column -->
+      <div class="col-md-4">
+
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Group 7</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
